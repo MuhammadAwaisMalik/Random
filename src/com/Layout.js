@@ -22,7 +22,7 @@ const Layout = () => {
 
 export default Layout;
 const Navbar = () => {
-  const [dir, setDir] = useState(false);
+  const [dir, setDir] = useState(true);
 
   return (
     <nav className="navbar navbar-expand-lg bg-light">
