@@ -73,7 +73,7 @@ const Content = () => {
           aria-labelledby="v-pills-about-tab"
           tabindex="0"
         >
-          <h1>About Me</h1>
+          <h1>About Me Hello World</h1>
         </div>
         <div
           className="tab-pane fade"
