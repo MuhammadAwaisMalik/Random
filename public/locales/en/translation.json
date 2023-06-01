@@ -1,0 +1,9 @@
+{
+  "Hello": {
+    "heading": "Welcome In this App",
+    "title": "This Title in English",
+    "description": {
+      "part1": "This Description in English."
+    }
+  }
+}
