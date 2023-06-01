@@ -64,7 +64,7 @@ const Content = () => {
           id="v-pills-home"
           role="tabpanel"
           aria-labelledby="v-pills-home-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <h1>Home</h1>
         </div>
@@ -73,7 +73,7 @@ const Content = () => {
           id="v-pills-about"
           role="tabpanel"
           aria-labelledby="v-pills-about-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <h1>About Me</h1>
         </div>
@@ -82,7 +82,7 @@ const Content = () => {
           id="v-pills-profile"
           role="tabpanel"
           aria-labelledby="v-pills-profile-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <h1>Profile</h1>
         </div>
@@ -92,7 +92,7 @@ const Content = () => {
           id="v-pills-messages"
           role="tabpanel"
           aria-labelledby="v-pills-messages-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <h1>Message</h1>
         </div>
@@ -101,7 +101,7 @@ const Content = () => {
           id="v-pills-settings"
           role="tabpanel"
           aria-labelledby="v-pills-settings-tab"
-          tabindex="0"
+          tabIndex="0"
         >
           <h1>Setting</h1>
         </div>
