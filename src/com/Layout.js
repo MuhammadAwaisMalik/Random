@@ -65,7 +65,15 @@ const Content = () => {
           tabindex="0"
         >
           <h1>Home</h1>
-          {/* <MyComponent /> */}
+        </div>
+        <div
+          className="tab-pane fade"
+          id="v-pills-about"
+          role="tabpanel"
+          aria-labelledby="v-pills-about-tab"
+          tabindex="0"
+        >
+          <h1>About Me</h1>
         </div>
         <div
           className="tab-pane fade"
@@ -119,6 +127,18 @@ const Sidebar = () => {
           aria-selected="true"
         >
           Home
+        </button>
+        <button
+          className="nav-link"
+          id="v-pill-about-tab"
+          data-bs-toggle="pill"
+          data-bs-target="#v-pills-about"
+          type="button"
+          role="tab"
+          aria-controls="v-pills-about"
+          aria-selected="true"
+        >
+          About Me
         </button>
         <button
           className="nav-link"
