@@ -32,6 +32,7 @@ const Navbar = () => {
         </a>
         {dir ? (
           <button
+            className="btn btn-success"
             onClick={() => {
               setDir(!dir);
               document.documentElement.setAttribute("dir", "rtl");
@@ -41,6 +42,7 @@ const Navbar = () => {
           </button>
         ) : (
           <button
+            className="btn btn-primary"
             onClick={() => {
               setDir(!dir);
               document.documentElement.setAttribute("dir", "ltr");
