@@ -36,7 +36,7 @@ const Navbar = () => {
             onClick={() => {
               setDir(!dir);
               document.documentElement.setAttribute("dir", "rtl");
-              console.log("Hello Main");
+              console.log("Hello Sub");
             }}
           >
             Left
